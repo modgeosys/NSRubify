@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1CA2DEA156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
+		A1CA2DF0156E965A00FD9126 /* NSRubify.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2DEF156E965A00FD9126 /* NSRubify.m */; };
+		A1CA2DF8156E965A00FD9126 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */; };
+		A1CA2DFA156E965A00FD9126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF9156E965A00FD9126 /* UIKit.framework */; };
+		A1CA2DFB156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
+		A1CA2DFE156E965A00FD9126 /* libNSRubify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE6156E965A00FD9126 /* libNSRubify.a */; };
+		A1CA2E04156E965A00FD9126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CA2E02156E965A00FD9126 /* InfoPlist.strings */; };
+		A1CA2E07156E965A00FD9126 /* NSRubifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1CA2DFC156E965A00FD9126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1CA2DDD156E965900FD9126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1CA2DE5156E965A00FD9126;
+			remoteInfo = NSRubify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1CA2DE6156E965A00FD9126 /* libNSRubify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRubify.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CA2DE9156E965A00FD9126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1CA2DED156E965A00FD9126 /* NSRubify-Prefix.pch */ = {isa = PBXFileReference; path = "NSRubify-Prefix.pch"; sourceTree = "<group>"; };
+		A1CA2DEE156E965A00FD9126 /* NSRubify.h */ = {isa = PBXFileReference; path = NSRubify.h; sourceTree = "<group>"; };
+		A1CA2DEF156E965A00FD9126 /* NSRubify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRubify.m; sourceTree = "<group>"; };
+		A1CA2DF6156E965A00FD9126 /* NSRubifyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRubifyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1CA2DF9156E965A00FD9126 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1CA2E01156E965A00FD9126 /* NSRubifyTests-Info.plist */ = {isa = PBXFileReference; path = "NSRubifyTests-Info.plist"; sourceTree = "<group>"; };
+		A1CA2E03156E965A00FD9126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1CA2E05156E965A00FD9126 /* NSRubifyTests.h */ = {isa = PBXFileReference; path = NSRubifyTests.h; sourceTree = "<group>"; };
+		A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRubifyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CA2DE3156E965A00FD9126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA2DEA156E965A00FD9126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA2DF2156E965A00FD9126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA2DF8156E965A00FD9126 /* SenTestingKit.framework in Frameworks */,
+				A1CA2DFA156E965A00FD9126 /* UIKit.framework in Frameworks */,
+				A1CA2DFB156E965A00FD9126 /* Foundation.framework in Frameworks */,
+				A1CA2DFE156E965A00FD9126 /* libNSRubify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1CA2DDB156E965900FD9126 = {
+			isa = PBXGroup;
+			children = (
+				A1CA2DEB156E965A00FD9126 /* NSRubify */,
+				A1CA2DFF156E965A00FD9126 /* NSRubifyTests */,
+				A1CA2DE8156E965A00FD9126 /* Frameworks */,
+				A1CA2DE7156E965A00FD9126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CA2DE7156E965A00FD9126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2DE6156E965A00FD9126 /* libNSRubify.a */,
+				A1CA2DF6156E965A00FD9126 /* NSRubifyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CA2DE8156E965A00FD9126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2DE9156E965A00FD9126 /* Foundation.framework */,
+				A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */,
+				A1CA2DF9156E965A00FD9126 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CA2DEB156E965A00FD9126 /* NSRubify */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2DEE156E965A00FD9126 /* NSRubify.h */,
+				A1CA2DEF156E965A00FD9126 /* NSRubify.m */,
+				A1CA2DEC156E965A00FD9126 /* Supporting Files */,
+			);
+			path = NSRubify;
+			sourceTree = "<group>";
+		};
+		A1CA2DEC156E965A00FD9126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2DED156E965A00FD9126 /* NSRubify-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1CA2DFF156E965A00FD9126 /* NSRubifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2E05156E965A00FD9126 /* NSRubifyTests.h */,
+				A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */,
+				A1CA2E00156E965A00FD9126 /* Supporting Files */,
+			);
+			path = NSRubifyTests;
+			sourceTree = "<group>";
+		};
+		A1CA2E00156E965A00FD9126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA2E01156E965A00FD9126 /* NSRubifyTests-Info.plist */,
+				A1CA2E02156E965A00FD9126 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1CA2DE4156E965A00FD9126 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1CA2DE5156E965A00FD9126 /* NSRubify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CA2E0A156E965A00FD9126 /* Build configuration list for PBXNativeTarget "NSRubify" */;
+			buildPhases = (
+				A1CA2DE2156E965A00FD9126 /* Sources */,
+				A1CA2DE3156E965A00FD9126 /* Frameworks */,
+				A1CA2DE4156E965A00FD9126 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRubify;
+			productName = NSRubify;
+			productReference = A1CA2DE6156E965A00FD9126 /* libNSRubify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1CA2DF5156E965A00FD9126 /* NSRubifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CA2E0D156E965A00FD9126 /* Build configuration list for PBXNativeTarget "NSRubifyTests" */;
+			buildPhases = (
+				A1CA2DF1156E965A00FD9126 /* Sources */,
+				A1CA2DF2156E965A00FD9126 /* Frameworks */,
+				A1CA2DF3156E965A00FD9126 /* Resources */,
+				A1CA2DF4156E965A00FD9126 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1CA2DFD156E965A00FD9126 /* PBXTargetDependency */,
+			);
+			name = NSRubifyTests;
+			productName = NSRubifyTests;
+			productReference = A1CA2DF6156E965A00FD9126 /* NSRubifyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CA2DDD156E965900FD9126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ASAP iSoft";
+			};
+			buildConfigurationList = A1CA2DE0156E965900FD9126 /* Build configuration list for PBXProject "NSRubify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1CA2DDB156E965900FD9126;
+			productRefGroup = A1CA2DE7156E965A00FD9126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CA2DE5156E965A00FD9126 /* NSRubify */,
+				A1CA2DF5156E965A00FD9126 /* NSRubifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CA2DF3156E965A00FD9126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA2E04156E965A00FD9126 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1CA2DF4156E965A00FD9126 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CA2DE2156E965A00FD9126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA2DF0156E965A00FD9126 /* NSRubify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA2DF1156E965A00FD9126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA2E07156E965A00FD9126 /* NSRubifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1CA2DFD156E965A00FD9126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1CA2DE5156E965A00FD9126 /* NSRubify */;
+			targetProxy = A1CA2DFC156E965A00FD9126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1CA2E02156E965A00FD9126 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CA2E03156E965A00FD9126 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1CA2E08156E965A00FD9126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1CA2E09156E965A00FD9126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CA2E0B156E965A00FD9126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NSRubify.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRubify/NSRubify-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1CA2E0C156E965A00FD9126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NSRubify.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRubify/NSRubify-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1CA2E0E156E965A00FD9126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRubify/NSRubify-Prefix.pch";
+				INFOPLIST_FILE = "NSRubifyTests/NSRubifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1CA2E0F156E965A00FD9126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRubify/NSRubify-Prefix.pch";
+				INFOPLIST_FILE = "NSRubifyTests/NSRubifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CA2DE0156E965900FD9126 /* Build configuration list for PBXProject "NSRubify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA2E08156E965A00FD9126 /* Debug */,
+				A1CA2E09156E965A00FD9126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CA2E0A156E965A00FD9126 /* Build configuration list for PBXNativeTarget "NSRubify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA2E0B156E965A00FD9126 /* Debug */,
+				A1CA2E0C156E965A00FD9126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1CA2E0D156E965A00FD9126 /* Build configuration list for PBXNativeTarget "NSRubifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA2E0E156E965A00FD9126 /* Debug */,
+				A1CA2E0F156E965A00FD9126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CA2DDD156E965900FD9126 /* Project object */;
+}

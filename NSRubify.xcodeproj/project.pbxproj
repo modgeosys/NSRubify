@@ -41,7 +41,7 @@
 		A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISRubifiedArrayTests.m; sourceTree = "<group>"; };
 		A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AISRubifiedArray.h"; sourceTree = "<group>"; };
 		A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AISRubifiedArray.m"; sourceTree = "<group>"; };
-		A1CA2E18156E9DCB00FD9126 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A1CA2E46156EA1E900FD9126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				A1CA2DEC156E965A00FD9126 /* Supporting Files */,
 				A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */,
 				A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */,
-				A1CA2E18156E9DCB00FD9126 /* README.md */,
+				A1CA2E46156EA1E900FD9126 /* README.md */,
 			);
 			path = NSRubify;
 			sourceTree = "<group>";

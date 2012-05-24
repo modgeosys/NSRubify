@@ -10,26 +10,34 @@
 #import "NSArray+AISRubifiedArray.h"
 
 
+@interface AISRubifiedArrayTests ()
+@property (nonatomic,strong) NSArray *array;
+@end
+
+
 @implementation AISRubifiedArrayTests
+
+@synthesize array = _array;
 
 - (void)setUp
 {
     [super setUp];
     
     // Set-up code here.
+    NSArray *array = [NSArray arrayWithObjects:@"one", @"two", @"three", nil];
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
+    self.array = nil;
     
     [super tearDown];
 }
 
 - (void)testFirstObject
 {
-    NSArray *array = [NSArray arrayWithObjects:@"one", @"two", @"three", nil];
-    STAssertEqualObjects(array.firstObject, @"one", nil);
+    STAssertEqualObjects(self.array.firstObject, @"one", nil);
 }
 
 @end

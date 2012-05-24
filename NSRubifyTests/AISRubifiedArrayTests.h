@@ -8,6 +8,9 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+
 @interface AISRubifiedArrayTests : SenTestCase
+
+- (void)testFirstObject;
 
 @end

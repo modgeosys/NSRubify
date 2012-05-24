@@ -16,7 +16,7 @@
 		A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */; };
 		A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */; };
 		A1CA2E17156E975400FD9126 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
-		A1CA2E48156EA5AA00FD9126 /* AISRubify.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E47156EA5AA00FD9126 /* AISRubify.h */; };
+		A1CA2E4D156EA89C00FD9126 /* NSRubify.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E4C156EA89C00FD9126 /* NSRubify.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AISRubifiedArray.h"; sourceTree = "<group>"; };
 		A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AISRubifiedArray.m"; sourceTree = "<group>"; };
 		A1CA2E46156EA1E900FD9126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
-		A1CA2E47156EA5AA00FD9126 /* AISRubify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISRubify.h; sourceTree = "<group>"; };
+		A1CA2E4C156EA89C00FD9126 /* NSRubify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRubify.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */,
 				A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */,
 				A1CA2E46156EA1E900FD9126 /* README.md */,
-				A1CA2E47156EA5AA00FD9126 /* AISRubify.h */,
+				A1CA2E4C156EA89C00FD9126 /* NSRubify.h */,
 			);
 			path = NSRubify;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */,
-				A1CA2E48156EA5AA00FD9126 /* AISRubify.h in Headers */,
+				A1CA2E4D156EA89C00FD9126 /* NSRubify.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +396,7 @@
 				A1CA2E0C156E965A00FD9126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1CA2E0D156E965A00FD9126 /* Build configuration list for PBXNativeTarget "NSRubifyTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				A1CA2E0F156E965A00FD9126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

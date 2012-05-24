@@ -6,9 +6,11 @@
 //  Copyright (c) 2012 ASAP iSoft. All rights reserved.
 //
 
-#import "NSRubifyTests.h"
+#import "AISRubifiedArrayTests.h"
+#import "NSArray+AISRubifiedArray.h"
 
-@implementation NSRubifyTests
+
+@implementation AISRubifiedArrayTests
 
 - (void)setUp
 {
@@ -24,9 +26,10 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFirstObject
 {
-    STFail(@"Unit tests are not implemented yet in NSRubifyTests");
+    NSArray *array = [NSArray arrayWithObjects:@"one", @"two", @"three", nil];
+    STAssertEqualObjects(array.firstObject, @"one", nil);
 }
 
 @end

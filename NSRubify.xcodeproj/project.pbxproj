@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A1CA2DEA156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
-		A1CA2DF0156E965A00FD9126 /* NSRubify.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2DEF156E965A00FD9126 /* NSRubify.m */; };
 		A1CA2DF8156E965A00FD9126 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */; };
 		A1CA2DFA156E965A00FD9126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF9156E965A00FD9126 /* UIKit.framework */; };
 		A1CA2DFB156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
 		A1CA2DFE156E965A00FD9126 /* libNSRubify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE6156E965A00FD9126 /* libNSRubify.a */; };
 		A1CA2E04156E965A00FD9126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CA2E02156E965A00FD9126 /* InfoPlist.strings */; };
-		A1CA2E07156E965A00FD9126 /* NSRubifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */; };
+		A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */; };
+		A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */; };
+		A1CA2E17156E975400FD9126 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,16 @@
 /* Begin PBXFileReference section */
 		A1CA2DE6156E965A00FD9126 /* libNSRubify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRubify.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CA2DE9156E965A00FD9126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A1CA2DED156E965A00FD9126 /* NSRubify-Prefix.pch */ = {isa = PBXFileReference; path = "NSRubify-Prefix.pch"; sourceTree = "<group>"; };
-		A1CA2DEE156E965A00FD9126 /* NSRubify.h */ = {isa = PBXFileReference; path = NSRubify.h; sourceTree = "<group>"; };
-		A1CA2DEF156E965A00FD9126 /* NSRubify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRubify.m; sourceTree = "<group>"; };
+		A1CA2DED156E965A00FD9126 /* NSRubify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRubify-Prefix.pch"; sourceTree = "<group>"; };
 		A1CA2DF6156E965A00FD9126 /* NSRubifyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRubifyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A1CA2DF9156E965A00FD9126 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1CA2E01156E965A00FD9126 /* NSRubifyTests-Info.plist */ = {isa = PBXFileReference; path = "NSRubifyTests-Info.plist"; sourceTree = "<group>"; };
+		A1CA2E01156E965A00FD9126 /* NSRubifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRubifyTests-Info.plist"; sourceTree = "<group>"; };
 		A1CA2E03156E965A00FD9126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1CA2E05156E965A00FD9126 /* NSRubifyTests.h */ = {isa = PBXFileReference; path = NSRubifyTests.h; sourceTree = "<group>"; };
-		A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRubifyTests.m; sourceTree = "<group>"; };
+		A1CA2E05156E965A00FD9126 /* AISRubifiedArrayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISRubifiedArrayTests.h; sourceTree = "<group>"; };
+		A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISRubifiedArrayTests.m; sourceTree = "<group>"; };
+		A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AISRubifiedArray.h"; sourceTree = "<group>"; };
+		A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AISRubifiedArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +98,9 @@
 		A1CA2DEB156E965A00FD9126 /* NSRubify */ = {
 			isa = PBXGroup;
 			children = (
-				A1CA2DEE156E965A00FD9126 /* NSRubify.h */,
-				A1CA2DEF156E965A00FD9126 /* NSRubify.m */,
 				A1CA2DEC156E965A00FD9126 /* Supporting Files */,
+				A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */,
+				A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */,
 			);
 			path = NSRubify;
 			sourceTree = "<group>";
@@ -115,8 +116,8 @@
 		A1CA2DFF156E965A00FD9126 /* NSRubifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				A1CA2E05156E965A00FD9126 /* NSRubifyTests.h */,
-				A1CA2E06156E965A00FD9126 /* NSRubifyTests.m */,
+				A1CA2E05156E965A00FD9126 /* AISRubifiedArrayTests.h */,
+				A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */,
 				A1CA2E00156E965A00FD9126 /* Supporting Files */,
 			);
 			path = NSRubifyTests;
@@ -138,6 +139,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CA2DF0156E965A00FD9126 /* NSRubify.m in Sources */,
+				A1CA2E17156E975400FD9126 /* NSArray+AISRubifiedArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CA2E07156E965A00FD9126 /* NSRubifyTests.m in Sources */,
+				A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

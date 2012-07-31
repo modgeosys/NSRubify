@@ -194,7 +194,7 @@
 		A1CA2DDD156E965900FD9126 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "ASAP iSoft";
 			};
 			buildConfigurationList = A1CA2DE0156E965900FD9126 /* Build configuration list for PBXProject "NSRubify" */;

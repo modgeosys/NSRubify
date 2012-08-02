@@ -11,14 +11,27 @@
 
 @implementation NSArray (AISRubifiedArray)
 
+// Complementary to Objective-C Foundation NSArray.lastObject method
 - (id)firstObject
 {
-    id result = nil;
+    id object = nil;
     if (self.count > 0)
     {
-        result = [self objectAtIndex:0];
+        object = [self objectAtIndex:0];
     }
-    return result;
+    return object;
+}
+
+// Equivalent to Ruby Array.map/collect method
+- (NSArray *)mappedArrayUsingBlock:(id(^)(id obj))block
+{
+    NSMutableArray *newArray = [NSMutableArray array];
+    for (id element in self)
+    {
+        id newElement = block(element);
+        [newArray addObject:newElement];
+    }
+    return [NSArray arrayWithArray:newArray];
 }
 
 @end

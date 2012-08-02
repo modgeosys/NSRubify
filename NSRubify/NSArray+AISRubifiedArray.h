@@ -11,6 +11,7 @@
 
 @interface NSArray (AISRubifiedArray)
 
-- (id)firstObject;
+- (id)firstObject;                                          // Complementary to Objective-C Foundation NSArray.lastObject method
+- (NSArray *)mappedArrayUsingBlock:(id(^)(id obj))block;    // Equivalent to Ruby Array.map/collect method
 
 @end

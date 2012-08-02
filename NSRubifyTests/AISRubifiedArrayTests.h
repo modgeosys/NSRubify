@@ -12,5 +12,6 @@
 @interface AISRubifiedArrayTests : SenTestCase
 
 - (void)testFirstObject;
+- (void)testMappedArrayUsingBlocks;
 
 @end

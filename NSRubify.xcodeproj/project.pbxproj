@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10F6A0A15C9F99900293829 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
+		A10F6A0F15C9FD8D00293829 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
 		A1CA2DEA156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
 		A1CA2DF8156E965A00FD9126 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */; };
 		A1CA2DFA156E965A00FD9126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF9156E965A00FD9126 /* UIKit.framework */; };
@@ -15,7 +17,6 @@
 		A1CA2E04156E965A00FD9126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CA2E02156E965A00FD9126 /* InfoPlist.strings */; };
 		A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */; };
 		A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */; };
-		A1CA2E17156E975400FD9126 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
 		A1CA2E4D156EA89C00FD9126 /* NSRubify.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CA2E4C156EA89C00FD9126 /* NSRubify.h */; };
 /* End PBXBuildFile section */
 
@@ -247,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CA2E17156E975400FD9126 /* NSArray+AISRubifiedArray.m in Sources */,
+				A10F6A0A15C9F99900293829 /* NSArray+AISRubifiedArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10F6A0F15C9FD8D00293829 /* NSArray+AISRubifiedArray.m in Sources */,
 				A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

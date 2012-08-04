@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A10F6A0A15C9F99900293829 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
 		A10F6A0F15C9FD8D00293829 /* NSArray+AISRubifiedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */; };
+		A154DB3E15CC6C7100C5572B /* NSString+AISRubifiedString.h in Headers */ = {isa = PBXBuildFile; fileRef = A154DB3C15CC6C7100C5572B /* NSString+AISRubifiedString.h */; };
+		A154DB3F15CC6C7100C5572B /* NSString+AISRubifiedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A154DB3D15CC6C7100C5572B /* NSString+AISRubifiedString.m */; };
+		A154DB4315CCBC2800C5572B /* AISRubifiedStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A154DB4215CCBC2800C5572B /* AISRubifiedStringTests.m */; };
+		A154DB4415CCBD2A00C5572B /* NSString+AISRubifiedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A154DB3D15CC6C7100C5572B /* NSString+AISRubifiedString.m */; };
 		A1CA2DEA156E965A00FD9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DE9156E965A00FD9126 /* Foundation.framework */; };
 		A1CA2DF8156E965A00FD9126 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF7156E965A00FD9126 /* SenTestingKit.framework */; };
 		A1CA2DFA156E965A00FD9126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA2DF9156E965A00FD9126 /* UIKit.framework */; };
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A154DB3C15CC6C7100C5572B /* NSString+AISRubifiedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AISRubifiedString.h"; sourceTree = "<group>"; };
+		A154DB3D15CC6C7100C5572B /* NSString+AISRubifiedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AISRubifiedString.m"; sourceTree = "<group>"; };
+		A154DB4115CCBC2800C5572B /* AISRubifiedStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISRubifiedStringTests.h; sourceTree = "<group>"; };
+		A154DB4215CCBC2800C5572B /* AISRubifiedStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISRubifiedStringTests.m; sourceTree = "<group>"; };
 		A1CA2DE6156E965A00FD9126 /* libNSRubify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRubify.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CA2DE9156E965A00FD9126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1CA2DED156E965A00FD9126 /* NSRubify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRubify-Prefix.pch"; sourceTree = "<group>"; };
@@ -105,6 +113,8 @@
 				A1CA2DEC156E965A00FD9126 /* Supporting Files */,
 				A1CA2E14156E975400FD9126 /* NSArray+AISRubifiedArray.h */,
 				A1CA2E15156E975400FD9126 /* NSArray+AISRubifiedArray.m */,
+				A154DB3C15CC6C7100C5572B /* NSString+AISRubifiedString.h */,
+				A154DB3D15CC6C7100C5572B /* NSString+AISRubifiedString.m */,
 				A1CA2E46156EA1E900FD9126 /* README.md */,
 				A1CA2E4C156EA89C00FD9126 /* NSRubify.h */,
 			);
@@ -124,6 +134,8 @@
 			children = (
 				A1CA2E05156E965A00FD9126 /* AISRubifiedArrayTests.h */,
 				A1CA2E06156E965A00FD9126 /* AISRubifiedArrayTests.m */,
+				A154DB4115CCBC2800C5572B /* AISRubifiedStringTests.h */,
+				A154DB4215CCBC2800C5572B /* AISRubifiedStringTests.m */,
 				A1CA2E00156E965A00FD9126 /* Supporting Files */,
 			);
 			path = NSRubifyTests;
@@ -147,6 +159,7 @@
 			files = (
 				A1CA2E16156E975400FD9126 /* NSArray+AISRubifiedArray.h in Headers */,
 				A1CA2E4D156EA89C00FD9126 /* NSRubify.h in Headers */,
+				A154DB3E15CC6C7100C5572B /* NSString+AISRubifiedString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F6A0A15C9F99900293829 /* NSArray+AISRubifiedArray.m in Sources */,
+				A154DB3F15CC6C7100C5572B /* NSString+AISRubifiedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F6A0F15C9FD8D00293829 /* NSArray+AISRubifiedArray.m in Sources */,
+				A154DB4415CCBD2A00C5572B /* NSString+AISRubifiedString.m in Sources */,
 				A1CA2E07156E965A00FD9126 /* AISRubifiedArrayTests.m in Sources */,
+				A154DB4315CCBC2800C5572B /* AISRubifiedStringTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

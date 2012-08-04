@@ -37,23 +37,56 @@
 
 - (void)testStringByReplacingMatchesOfExpression_options_withTemplate_options
 {
-    NSString *modifiedString = [self.string stringByReplacingMatchesOfExpression:@"is"
-                                                                         options:0
-                                                                    withTemplate:@"blah"
-                                                                         options:0];
+    NSString *modifiedString;
+    
+    // Test replacing substrings in the middle of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"is"
+                                                               options:0
+                                                          withTemplate:@"blah"
+                                                               options:0];
     STAssertEqualObjects(modifiedString, @"Thblah blah a test", nil);
+    
+    // Test replacing a substring at the beginning of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"This"
+                                                               options:0
+                                                          withTemplate:@"blah"
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"blah is a test", nil);
+    
+    // Test replacing a substring at the end of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"test"
+                                                               options:0
+                                                          withTemplate:@"blah"
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"This is a blah", nil);
 }
 
 - (void)testStringByReplacingMatchesOfExpression_options_withBlockResults_options
 {
-    NSString *modifiedString = [self.string stringByReplacingMatchesOfExpression:@"is"
-                                                                         options:0
-                                                                withBlockResults:^NSString *(NSString *matchingSubstring)
-                                                                {
-                                                                    return [matchingSubstring uppercaseString];
-                                                                }
-                                                                         options:0];
+    NSString *(^block)(NSString *) = ^(NSString *matchingSubstring)
+    {
+        return [matchingSubstring uppercaseString];
+    };
+    NSString *modifiedString;
+    
+    // Test replacing substrings in the middle of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"is"
+                                                               options:0
+                                                      withBlockResults:block
+                                                               options:0];
     STAssertEqualObjects(modifiedString, @"ThIS IS a test", nil);
+    // Test replacing a substring at the beginning of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"This"
+                                                               options:0
+                                                      withBlockResults:block
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"THIS is a test", nil);
+    // Test replacing a substring at the end of a string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"test"
+                                                               options:0
+                                                      withBlockResults:block
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"This is a TEST", nil);
 }
 
 @end

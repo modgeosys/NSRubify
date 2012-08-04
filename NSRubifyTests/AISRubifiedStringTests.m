@@ -59,6 +59,13 @@
                                                           withTemplate:@"blah"
                                                                options:0];
     STAssertEqualObjects(modifiedString, @"This is a blah", nil);
+    
+    // Test trying to replace a substring that doesn't exist anywhere in the string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"hey"
+                                                               options:0
+                                                          withTemplate:@"blah"
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"This is a test", nil);
 }
 
 - (void)testStringByReplacingMatchesOfExpression_options_withBlockResults_options
@@ -87,6 +94,13 @@
                                                       withBlockResults:block
                                                                options:0];
     STAssertEqualObjects(modifiedString, @"This is a TEST", nil);
+
+    // Test trying to replace a substring that doesn't exist anywhere in the string.
+    modifiedString = [self.string stringByReplacingMatchesOfExpression:@"hey"
+                                                               options:0
+                                                      withBlockResults:block
+                                                               options:0];
+    STAssertEqualObjects(modifiedString, @"This is a test", nil);
 }
 
 @end

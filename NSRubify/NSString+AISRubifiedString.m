@@ -8,6 +8,7 @@
 
 #import "NSString+AISRubifiedString.h"
 
+
 @implementation NSString (AISRubifiedString)
 
 - (NSString *)stringByReplacingMatchesOfExpression:(NSString *)regEx

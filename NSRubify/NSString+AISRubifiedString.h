@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface NSString (AISRubifiedString)
 
 // Equivalents to Ruby String.gsub method

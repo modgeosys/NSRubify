@@ -11,6 +11,7 @@
 
 @implementation NSString (AISRubifiedString)
 
+// Equivalent to Ruby String.gsub method with string template
 - (NSString *)stringByReplacingMatchesOfExpression:(NSString *)regEx
                                            options:(NSRegularExpressionOptions)regExOptions
                                       withTemplate:(NSString *)template
@@ -27,6 +28,7 @@
     return [NSString stringWithString:workingString];
 }
 
+// Equivalent to Ruby String.gsub method with block template
 - (NSString *)stringByReplacingMatchesOfExpression:(NSString *)regEx
                                            options:(NSRegularExpressionOptions)regExOptions
                                   withBlockResults:(NSString *(^)(NSString *))block
@@ -36,6 +38,7 @@
     NSRegularExpression *regExObject = [NSRegularExpression regularExpressionWithPattern:regEx
                                                                                  options:regExOptions
                                                                                    error:NULL];
+    // Enumerate over each match, appending the pre-match text, then the block results for the match.
     __block NSUInteger lastMatchLoccation = 0;
     [regExObject enumerateMatchesInString:self
                                   options:matchingOptions
@@ -48,6 +51,7 @@
             lastMatchLoccation += (prefixRange.length + matchRange.length);
         }
     ];
+    // Append any final non-matching text.
     [workingString appendString:[self substringWithRange:NSMakeRange(lastMatchLoccation, self.length - lastMatchLoccation)]];
     return workingString;
 }

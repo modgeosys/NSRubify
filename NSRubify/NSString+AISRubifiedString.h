@@ -20,4 +20,5 @@
                                            options:(NSRegularExpressionOptions)regExOptions
                                   withBlockResults:(NSString *(^)(NSString *matchingSubstring))block
                                            options:(NSMatchingOptions)matchingOptions;
+
 @end

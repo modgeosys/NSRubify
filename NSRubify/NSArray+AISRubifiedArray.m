@@ -17,7 +17,7 @@
     id object = nil;
     if (self.count > 0)
     {
-        object = [self objectAtIndex:0];
+        object = self[0];
     }
     return object;
 }

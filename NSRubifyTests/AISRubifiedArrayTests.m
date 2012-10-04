@@ -24,7 +24,7 @@
     [super setUp];
     
     // Set-up code here.
-    self.array = [NSArray arrayWithObjects:@"one", @"two", @"three", nil];
+    self.array = @[@"one", @"two", @"three"];
 }
 
 - (void)tearDown
@@ -42,13 +42,10 @@
 
 - (void)testMappedArrayUsingBlocks
 {
-    NSArray *expectedArray = [NSArray arrayWithObjects:[NSNumber numberWithUnsignedInt:3],
-                                                       [NSNumber numberWithUnsignedInt:3],
-                                                       [NSNumber numberWithUnsignedInt:5],
-                                                       nil];
+    NSArray *expectedArray = @[@3U, @3U, @5U];
     NSArray *computedArray = [self.array mappedArrayUsingBlock:^(id obj)
                               {
-                                  return ([NSNumber numberWithUnsignedInt:((NSString *) obj).length]);
+                                  return (@(((NSString *) obj).length));
                               }
                              ];
     STAssertEqualObjects(computedArray, expectedArray, nil);
